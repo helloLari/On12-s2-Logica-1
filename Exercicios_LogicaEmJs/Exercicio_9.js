@@ -2,11 +2,9 @@
 
 
 let valor = 277
-let valorImpar = valor % 2
-let valorPar = valor % 3
 
-if (valorImpar){
+if (valor % 2 === 0){
     console.log('Este é um Número Impar')
-}else if (valorPar){
+}else{
     console.log('Este é um Número Par')
 }
